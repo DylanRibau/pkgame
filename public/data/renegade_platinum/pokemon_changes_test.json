@@ -1,0 +1,181 @@
+{
+	"pkmn":
+	[
+		{
+			"dex_no": "001",
+			"name": "Bulbasaur",
+			"ability" : [
+				{
+					"status": "Old",
+					"ability_1": "Overgrow",
+					"ability_2": "None"
+				},
+				{
+					"status": "New",
+					"ability_1": "Chlorophyll",
+					"ability_2": "Overgrow"
+				}
+			],
+			"level_up": [
+				{
+					"level": 1,
+					"move": "Tackle"
+				},
+				{
+					"level": 1,
+					"move": "Growl"
+				},
+				{
+					"level": 5,
+					"move": "Vine Whip"
+				},
+				{
+					"level": 8,
+					"move": "Leech Seed"
+				},
+				{
+					"level": 11,
+					"move": "Razor Leaf"
+				},
+				{
+					"level": 14,
+					"move": "Poison Powder"
+				},
+				{
+					"level": 14,
+					"move": "Sleep Powder"
+				},
+				{
+					"level": 17,
+					"move": "Sludge"
+				},
+				{
+					"level": 20,
+					"move": "Take Down"
+				},
+				{
+					"level": 23,
+					"move": "Sweet Scent"
+				},
+				{
+					"level": 26,
+					"move": "Sludge Bomb"
+				},
+				{
+					"level": 29,
+					"move": "Growth"
+				},
+				{
+					"level": 32,
+					"move": "Worry Seed"
+				},
+				{
+					"level": 35,
+					"move": "Double-Edge"
+				},
+				{
+					"level": 38,
+					"move": "Synthesis"
+				},
+				{
+					"level": 41,
+					"move": "Seed Bomb"
+				},
+				{
+					"level": 44,
+					"move": "Leaf Storm"
+				}
+			]
+		},
+		{
+			"dex_no": "002",
+			"name": "Ivysaur",
+			"ability" : [
+				{
+					"status": "Old",
+					"ability_1": "Overgrow",
+					"ability_2": "None"
+				},
+				{
+					"status": "New",
+					"ability_1": "Chlorophyll",
+					"ability_2": "Overgrow"
+				}
+			],
+			"level_up": [
+				{
+					"level": 1,
+					"move": "Tackle"
+				},
+				{
+					"level": 1,
+					"move": "Growl"
+				},
+				{
+					"level": 5,
+					"move": "Vine Whip"
+				},
+				{
+					"level": 8,
+					"move": "Leech Seed"
+				},
+				{
+					"level": 11,
+					"move": "Razor Leaf"
+				},
+				{
+					"level": 14,
+					"move": "Poison Powder"
+				},
+				{
+					"level": 14,
+					"move": "Sleep Powder"
+				},
+				{
+					"level": 16,
+					"move": "Magical Leaf"
+				},
+				{
+					"level": 18,
+					"move": "Sludge"
+				},
+				{
+					"level": 22,
+					"move": "Take Down"
+				},
+				{
+					"level": 26,
+					"move": "Sweet Scent"
+				},
+				{
+					"level": 30,
+					"move": "Sludge Bomb"
+				},
+				{
+					"level": 34,
+					"move": "Growth"
+				},
+				{
+					"level": 38,
+					"move": "Worry Seed"
+				},
+				{
+					"level": 42,
+					"move": "Double-Edge"
+				},
+				{
+					"level": 46,
+					"move": "Synthesis"
+				},
+				{
+					"level": 50,
+					"move": "Solar Beam"
+				},
+				{
+					"level": 54,
+					"move": "Leaf Storm"
+				}
+			]
+		}
+	]
+}

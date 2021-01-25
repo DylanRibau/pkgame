@@ -21,9 +21,42 @@ export default function FirstPost({ pkmnChanges }) {
       <h1>Pokemon Changes</h1>
 
       <div>
-        {pkmnChanges.pkmn.map((pkmn) => (
-          <div key={pkmn.dex_no}>
-            {pkmn.name} - {pkmn.dex_no}
+        {pkmnChanges.map((pkmn) => (
+          <div key={pkmn.Dex_no}>
+            <div>
+              {pkmn.Name} - {pkmn.Dex_no}
+            </div>
+            {pkmn.Ability !== null &&
+              <div>
+                <div>
+                  Ability Changes:
+                </div>
+                {pkmn.Ability.map((ability) => (
+                  <div>
+                    {ability.Edition} {ability.Status} {ability.Ability_1} / {ability.Ability_2}
+                  </div>
+                ))}
+              </div>
+            }
+            {pkmn.Evolution !== null &&
+              <div>
+                <div>
+                  Evolution:
+                </div>
+                {pkmn.Evolution.map((evolution) => (
+                  <div>
+                    {evolution}
+                  </div>
+                ))}
+              </div>
+            }
+            {pkmn.Base_Stats !== null &&
+              <div>
+                <div>
+                  Base Stats:
+                </div>
+              </div>
+            }
           </div>
         ))}
       </div>
