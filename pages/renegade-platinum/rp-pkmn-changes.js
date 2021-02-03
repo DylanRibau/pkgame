@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
+import styles from '../../styles/rp-pkmn-changes.module.scss'
 import { getGamePkmnChanges } from '../../lib/games'
 
 export async function getStaticProps() {
@@ -18,16 +19,17 @@ export default function FirstPost({ pkmnChanges }) {
       <Head>
         <title>Pokemon Changes</title>
       </Head>
-      <h1>Pokemon Changes</h1>
+      <h1 className={styles.page_title}>Pokemon Changes</h1>
 
       <div>
         {pkmnChanges.map((pkmn) => (
-          <div key={pkmn.Dex_no}>
-            <div key={pkmn.name + pkmn.Dex_no}>
-              {pkmn.Name} - {pkmn.Dex_no}
+          <div key={pkmn.Dex_no} className={styles.pkmn_container}>
+            <div key={pkmn.name + pkmn.Dex_no} className={styles.pkmn_tag}>
+              <span>{pkmn.Name}</span> {pkmn.Dex_no}
+              <div key={pkmn.Dex_no + 'TitleLine'} className={styles.seperator}></div>
             </div>
             {pkmn.Ability !== null &&
-              <div key={pkmn.Dex_no + 'AbilityContainer'}>
+              <div key={pkmn.Dex_no + 'AbilityContainer'} className={styles.pkmn_ability_container}>
                 <div key={pkmn.Dex_no + 'AbilityHeader'}>
                   Ability Changes:
                 </div>
@@ -36,6 +38,7 @@ export default function FirstPost({ pkmnChanges }) {
                     {ability.Edition} {ability.Status} {ability.Ability_1} / {ability.Ability_2}
                   </div>
                 ))}
+                <div key={pkmn.Dex_no + 'AbilityLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Evolution !== null &&
@@ -48,6 +51,7 @@ export default function FirstPost({ pkmnChanges }) {
                     {evolution}
                   </div>
                 ))}
+                <div key={pkmn.Dex_no + 'EvolutionLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Base_Stats !== null &&
@@ -60,6 +64,7 @@ export default function FirstPost({ pkmnChanges }) {
                     {bs.Status} {bs.Form}    HP: {bs.HP} / Atk: {bs.Atk} / SAtk: {bs.SAtk} / Def: {bs.Def} / SDef: {bs.SDef} / Spd: {bs.Spd} / BST: {bs.BST}
                   </div>
                 ))}
+                <div key={pkmn.Dex_no + 'BaseStatsLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Evs !== null &&
@@ -72,6 +77,7 @@ export default function FirstPost({ pkmnChanges }) {
                     {ev.Status}    {ev.Amount} {ev.Stat}
                   </div>
                 ))}
+                <div key={pkmn.Dex_no + 'EvsLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Type !== null &&
@@ -84,6 +90,7 @@ export default function FirstPost({ pkmnChanges }) {
                     {type.Status}  {type.Type_1} {type.Type_2 !== null ? <span> / {type.Type_2}</span>:''}
                   </div>
                 ))}
+                <div key={pkmn.Dex_no + 'TypeLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Moves !== null &&
@@ -98,6 +105,7 @@ export default function FirstPost({ pkmnChanges }) {
                     </li>
                   ))}
                 </ul>
+                <div key={pkmn.Dex_no + 'MovesLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Held_Items !== null &&
@@ -112,6 +120,7 @@ export default function FirstPost({ pkmnChanges }) {
                     </li>
                   ))}
                 </ul>
+                <div key={pkmn.Dex_no + 'HeldItemLine'} className={styles.seperator}></div>
               </div>
             }
             {pkmn.Level_Up !== null &&

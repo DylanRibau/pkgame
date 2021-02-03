@@ -1,0 +1,30 @@
+.pkmn_container {
+  margin-bottom: 15px;
+  background-color: rgba(235, 235, 235, 0.9);
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.pkmn_tag {
+  font-family: cursive, fantasy, serif;
+  text-align: center;
+
+  span {
+    font-size: 2.5rem;
+    color: rgba(30, 0, 30, 0.87);
+  }
+}
+
+.seperator {
+  margin: 10px 2.5% 10px;
+  background: linear-gradient(to right, rgba(51, 0, 51, 0.2), rgba(51, 0, 51, 0.89), rgba(51, 0, 51, 0.2));
+  height: 2px;
+  width: 95%;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.pkmn_ability_container {
+
+}
