@@ -17,9 +17,16 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/renegade-platinum/rp-pkmn-changes">
-            <a href="https://nextjs.org/docs" className={styles.card}>
+            <a className={styles.card}>
               <h3>Pokemon Changes &rarr;</h3>
-              <p>View all pokemon changes in Renegade Platinum</p>
+              <p>View each pokemons Ability, Type, Stats, Learnset, and more changes</p>
+            </a>
+          </Link>
+
+          <Link href="/renegade-platinum/rp-trainers">
+            <a className={styles.card}>
+              <h3>Trainers &rarr;</h3>
+              <p>View all changed trainers and their rosters with detailed important trainer info</p>
             </a>
           </Link>
         </div>

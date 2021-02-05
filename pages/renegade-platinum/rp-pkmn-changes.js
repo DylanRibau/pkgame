@@ -13,7 +13,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function FirstPost({ pkmnChanges }) {
+export default function RPPkmnChanges({ pkmnChanges }) {
   return (
     <Layout>
       <Head>
@@ -159,12 +159,6 @@ export default function FirstPost({ pkmnChanges }) {
           </div>
         ))}
       </div>
-
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
     </Layout>
   )
 }
