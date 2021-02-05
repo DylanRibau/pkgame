@@ -29,13 +29,13 @@ export default function FirstPost({ pkmnChanges }) {
               <div key={pkmn.Dex_no + 'TitleLine'} className={styles.seperator}></div>
             </div>
             {pkmn.Ability !== null &&
-              <div key={pkmn.Dex_no + 'AbilityContainer'} className={styles.pkmn_ability_container}>
-                <div key={pkmn.Dex_no + 'AbilityHeader'}>
-                  Ability Changes:
+              <div key={pkmn.Dex_no + 'AbilityContainer'}>
+                <div key={pkmn.Dex_no + 'AbilityHeader'} className={styles.sub_heading}>
+                  Ability Changes
                 </div>
                 {pkmn.Ability.map((ability) => (
                   <div key={pkmn.Dex_no + ability.Status + ability.Edition + 'Ability'}>
-                    {ability.Edition} {ability.Status} {ability.Ability_1} / {ability.Ability_2}
+                    <span className={styles.text_label}>{ability.Edition} {ability.Status}</span> <span className={styles.text}>{ability.Ability_1} / {ability.Ability_2}</span>
                   </div>
                 ))}
                 <div key={pkmn.Dex_no + 'AbilityLine'} className={styles.seperator}></div>
@@ -43,11 +43,11 @@ export default function FirstPost({ pkmnChanges }) {
             }
             {pkmn.Evolution !== null &&
               <div key={pkmn.Dex_no + 'EvolutionContainer'}>
-                <div key={pkmn.Dex_no + 'EvolutionHeader'}>
-                  Evolution:
+                <div key={pkmn.Dex_no + 'EvolutionHeader'} className={styles.sub_heading}>
+                  Evolution
                 </div>
                 {pkmn.Evolution.map((evolution) => (
-                  <div key={pkmn.Dex_no + evolution}>
+                  <div key={pkmn.Dex_no + evolution} className={styles.text}>
                     {evolution}
                   </div>
                 ))}
@@ -56,12 +56,26 @@ export default function FirstPost({ pkmnChanges }) {
             }
             {pkmn.Base_Stats !== null &&
               <div key={pkmn.Dex_no + 'BaseStatsContainer'}>
-                <div key={pkmn.Dex_no + 'BaseStatsHeader'}>
-                  Base Stats:
+                <div key={pkmn.Dex_no + 'BaseStatsHeader'} className={styles.sub_heading}>
+                  Base Stats
                 </div>
                 {pkmn.Base_Stats.map((bs) => (
                   <div key={pkmn.Dex_no + bs.Status + bs.Form + 'BaseStats'}>
-                    {bs.Status} {bs.Form}    HP: {bs.HP} / Atk: {bs.Atk} / SAtk: {bs.SAtk} / Def: {bs.Def} / SDef: {bs.SDef} / Spd: {bs.Spd} / BST: {bs.BST}
+                    <span className={styles.text_label}> {bs.Status} {bs.Form}</span>
+                    <span className={styles.text}>       HP:</span>
+                    <span className={styles.text_value}> {bs.HP}</span>
+                    <span className={styles.text}>       / Atk:</span>
+                    <span className={styles.text_value}> {bs.Atk}</span>
+                    <span className={styles.text}>       / SAtk:</span>
+                    <span className={styles.text_value}> {bs.SAtk}</span>
+                    <span className={styles.text}>       / Def:</span>
+                    <span className={styles.text_value}> {bs.Def}</span>
+                    <span className={styles.text}>       / SDef:</span>
+                    <span className={styles.text_value}> {bs.SDef}</span>
+                    <span className={styles.text}>       / Spd:</span>
+                    <span className={styles.text_value}> {bs.Spd}</span>
+                    <span className={styles.text}>       / BST:</span>
+                    <span className={styles.text_value}> {bs.BST}</span>
                   </div>
                 ))}
                 <div key={pkmn.Dex_no + 'BaseStatsLine'} className={styles.seperator}></div>
@@ -69,12 +83,13 @@ export default function FirstPost({ pkmnChanges }) {
             }
             {pkmn.Evs !== null &&
               <div key={pkmn.Dex_no + 'EvsContainer'}>
-                <div key={pkmn.Dex_no + 'EvsHeader'}>
-                  Ev's:
+                <div key={pkmn.Dex_no + 'EvsHeader'} className={styles.sub_heading}>
+                  Ev's
                 </div>
                 {pkmn.Evs.map((ev) => (
                   <div key={pkmn.Dex_no + ev.Status + 'Ev'}>
-                    {ev.Status}    {ev.Amount} {ev.Stat}
+                    <span className={styles.text_label}>{ev.Status} </span>
+                    <span className={styles.text}>{ev.Amount} {ev.Stat}</span>
                   </div>
                 ))}
                 <div key={pkmn.Dex_no + 'EvsLine'} className={styles.seperator}></div>
@@ -82,12 +97,12 @@ export default function FirstPost({ pkmnChanges }) {
             }
             {pkmn.Type !== null &&
               <div key={pkmn.Dex_no + 'TypeContainer'}>
-                <div key={pkmn.Dex_no + 'TypeHeader'}>
-                  Type:
+                <div key={pkmn.Dex_no + 'TypeHeader'} className={styles.sub_heading}>
+                  Type
                 </div>
                 {pkmn.Type.map((type) => (
                   <div key={pkmn.Dex_no + type.Status + 'Type'}>
-                    {type.Status}  {type.Type_1} {type.Type_2 !== null ? <span> / {type.Type_2}</span>:''}
+                    <span className={styles.text_label}>{type.Status}</span> <span className={styles.text}>{type.Type_1} {type.Type_2 !== null ? <span> / {type.Type_2}</span>:''}</span>
                   </div>
                 ))}
                 <div key={pkmn.Dex_no + 'TypeLine'} className={styles.seperator}></div>
@@ -95,12 +110,12 @@ export default function FirstPost({ pkmnChanges }) {
             }
             {pkmn.Moves !== null &&
               <div key={pkmn.Dex_no + 'MoveContainer'}>
-                <div key={pkmn.Dex_no + 'MoveHeader'}>
-                  Now Compatible With:
+                <div key={pkmn.Dex_no + 'MoveHeader'} className={styles.sub_heading}>
+                  Now Compatible With
                 </div>
-                <ul key={pkmn.Dex_no + 'MoveList'}>
+                <ul key={pkmn.Dex_no + 'MoveList'} className={styles.list}>
                   {pkmn.Moves.map((move) => (
-                    <li key={pkmn.Dex_no + move}>
+                    <li key={pkmn.Dex_no + move} className={styles.list_item}>
                       {move}
                     </li>
                   ))}
@@ -110,12 +125,12 @@ export default function FirstPost({ pkmnChanges }) {
             }
             {pkmn.Held_Items !== null &&
               <div key={pkmn.Dex_no + 'HeldItemsContainer'}>
-                <div key={pkmn.Dex_no + 'HeldItemsHeader'}>
-                  Held Items:
+                <div key={pkmn.Dex_no + 'HeldItemsHeader'} className={styles.sub_heading}>
+                  Held Items
                 </div>
-                <ul key={pkmn.Dex_no + 'HeldItemsList'}>
+                <ul key={pkmn.Dex_no + 'HeldItemsList'} className={styles.list}>
                   {pkmn.Held_Items.map((item) => (
-                    <li key={pkmn.Dex_no + item}>
+                    <li key={pkmn.Dex_no + item} className={styles.list_item}>
                       {item}
                     </li>
                   ))}
@@ -127,12 +142,12 @@ export default function FirstPost({ pkmnChanges }) {
               <div key={pkmn.Dex_no + 'LevelUpContainer'}>
                   {pkmn.Level_Up.map((lvlup) => (
                     <div key={pkmn.Dex_no + lvlup.Form + 'Container'}>
-                      <div key={pkmn.Dex_no + lvlup.Form + 'lvlup'}>
-                        {lvlup.Form} Learnset:
+                      <div key={pkmn.Dex_no + lvlup.Form + 'lvlup'} className={styles.sub_heading}>
+                        {lvlup.Form} Learnset
                       </div>
-                      <ul key={pkmn.Dex_no + lvlup.Form + 'learnset'}>
+                      <ul key={pkmn.Dex_no + lvlup.Form + 'learnset'} className={styles.list}>
                         {lvlup.Learnset.map((move) => (
-                          <li key={pkmn.Dex_no + move.Level + move.Move}>
+                          <li key={pkmn.Dex_no + move.Level + move.Move} className={styles.list_item}>
                             {move.Level} - {move.Move}
                           </li>
                         ))}
