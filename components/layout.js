@@ -27,7 +27,9 @@ export default function Layout({ children, home }) {
           <>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <Image src="/images/pokeball.png" height="100" width="100" className={styles.pointer}/>
+                <div>
+                  <Image src="/images/pokeball.png" height="100" width="100" className={styles.pointer}/>
+                </div>
               </Link>
             </h2>
           </>

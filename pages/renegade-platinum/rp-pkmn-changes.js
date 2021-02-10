@@ -3,10 +3,13 @@ import Head from 'next/head'
 import Layout from '../../components/layout'
 import styles from '../../styles/rp-pkmn-changes.module.scss'
 import utilStyles from '../../styles/utils.module.scss'
-import { getGamePkmnChanges } from '../../lib/games'
+import { getGameChanges } from '../../lib/games'
+
+const game = "renegade_platinum";
+const fileName = "pokemon_changes";
 
 export async function getStaticProps() {
-  const pkmnChanges = getGamePkmnChanges("renegade_platinum")
+  const pkmnChanges = getGameChanges(game, fileName);
   return {
     props: {
       pkmnChanges

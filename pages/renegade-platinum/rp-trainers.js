@@ -1,8 +1,21 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
+import { getGameChanges } from '../../lib/games'
 
-export default function RPTrainers() {
+const game = "renegade_platinum";
+const fileName = "trainer_changes";
+
+export async function getStaticProps() {
+  const changes = getGameChanges(game, fileName);
+  return {
+    props: {
+      changes
+    }
+  }
+}
+
+export default function RPTrainers({ changes }) {
   return (
     <Layout>
       <Head>
@@ -10,6 +23,7 @@ export default function RPTrainers() {
       </Head>
 
       WIP
+      {console.log(changes)}
     </Layout>
   )
 }
