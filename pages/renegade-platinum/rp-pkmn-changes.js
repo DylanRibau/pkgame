@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
 import styles from '../../styles/rp-pkmn-changes.module.scss'
+import utilStyles from '../../styles/utils.module.scss'
 import { getGamePkmnChanges } from '../../lib/games'
 
 export async function getStaticProps() {
@@ -19,13 +20,13 @@ export default function RPPkmnChanges({ pkmnChanges }) {
       <Head>
         <title>Pokemon Changes</title>
       </Head>
-      <h1 className={styles.page_title}>Pokemon Changes</h1>
+      <h1 className={[utilStyles.heading2x1, styles.page_title].join(" ")}>Pokemon Changes</h1>
 
       <div>
         {pkmnChanges.map((pkmn) => (
-          <div key={pkmn.Dex_no} className={styles.pkmn_container}>
+          <div key={pkmn.Dex_no} className={utilStyles.content_container}>
             <div key={pkmn.name + pkmn.Dex_no} className={styles.pkmn_tag}>
-              <span>{pkmn.Name}</span> {pkmn.Dex_no}
+              <span className={utilStyles.heading2x1}>{pkmn.Name}</span> {pkmn.Dex_no}
               <div key={pkmn.Dex_no + 'TitleLine'} className={styles.seperator}></div>
             </div>
             {pkmn.Ability !== null &&

@@ -1,0 +1,25 @@
+$C_container: rgba(235, 235, 235, 0.9);
+$F_Arial: Arial, sans-serif;
+
+.heading2x1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.content_container {
+  margin-bottom: 2rem;
+  background-color: $C_container;
+  border-radius: 25px;
+  padding: 1.5rem;
+  box-shadow: 5px 5px 5px grey;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
