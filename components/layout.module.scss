@@ -1,4 +1,7 @@
 $L_margin: 3rem;
+$M_media_breakpoint_1: 1200px;
+$M_media_breakpoint_2: 900px;
+$M_media_breakpoint_3: 750px;
 
 .container {
   max-width: 60vw;
@@ -18,4 +21,22 @@ $L_margin: 3rem;
 
 .pointer:hover {
   cursor: pointer;
+}
+
+@media (max-width: $M_media_breakpoint_1) {
+  .container {
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: $M_media_breakpoint_2) {
+  .container {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: $M_media_breakpoint_3) {
+  .container {
+    max-width: 100vw;
+  }
 }

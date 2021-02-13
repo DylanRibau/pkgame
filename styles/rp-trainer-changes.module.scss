@@ -1,0 +1,46 @@
+$C_title_base: #000033;
+$C_title: rgba($C_title_base, 0.87);
+$C_title_linefade: rgba($C_title_base, 0.2);
+$L_base_container_size: 15rem;
+
+.title_colour {
+  color: $C_title;
+}
+
+.seperator {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, $C_title_linefade, $C_title, $C_title_linefade);
+  height: 2px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.trainer_name {
+  float: left;
+  width: $L_base_container_size;
+}
+
+.roster_item {
+  margin-right: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.pkmn_name_info {
+  float: left;
+  width: $L_base_container_size * 1.15;
+}
+
+.pkmn_nature_info {
+  float: left;
+  width: $L_base_container_size * 0.35;
+}
+
+.pkmn_ability_info {
+  float: left;
+  width: $L_base_container_size * 0.6;
+}
+
+.space_below {
+  margin: 0.5rem 0;
+}

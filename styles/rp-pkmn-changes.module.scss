@@ -3,19 +3,10 @@ $C_title: rgba($C_title_base, 0.87);
 $C_title_linefade: rgba($C_title_base, 0.2);
 $C_text: #000000;
 $F_Arial: Arial, sans-serif;
+$F_Text: 1.1rem Times, serif;
 
-.page_title {
-  font-family: $F_Arial;
-  text-align: center;
-}
-
-.pkmn_tag {
-  font-family: cursive, fantasy, serif;
-  text-align: center;
-
-  span {
-    color: $C_title;
-  }
+.title_colour {
+  color: $C_title;
 }
 
 .seperator {
@@ -27,28 +18,19 @@ $F_Arial: Arial, sans-serif;
   border-radius: 50%;
 }
 
-.sub_heading {
-  @extend .pkmn_tag;
-  font-size: 1.25rem;
-}
-
 .text_label {
   font: 0.7rem $F_Arial;
   color: rgba($C_text, 0.7);
   padding-right: 1rem;
 }
 
-.text {
-  font: 1.1rem Times, serif;
-}
-
 .text_value {
-  @extend .text;
+  font: $F_Text;
   color: rgba($C_text, 0.87);
 }
 
 .list {
-  @extend .text;
+  font: $F_Text;
   padding: 0;
 
   .list_item {
