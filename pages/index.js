@@ -29,6 +29,13 @@ export default function Home() {
               <p>View all changed trainers and their rosters with detailed important trainer info</p>
             </a>
           </Link>
+
+          <Link href="/renegade-platinum/rp-wild-pkmn">
+            <a className={styles.card}>
+              <h3>Wild Pokemon &rarr;</h3>
+              <p>View all changes with wild pokemon within each route and how to find them</p>
+            </a>
+          </Link>
         </div>
       </main>
 

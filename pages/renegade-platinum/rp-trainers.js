@@ -1,10 +1,8 @@
-import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
 import styles from '../../styles/rp-trainer-changes.module.scss'
 import utilStyles from '../../styles/utils.module.scss'
 import { getGameChanges } from '../../lib/games'
-import { useRouter } from 'next/router'
 
 const game = "renegade_platinum";
 const fileName = "trainer_changes";
@@ -19,8 +17,6 @@ export async function getStaticProps() {
 }
 
 export default function RPTrainers({ changes }) {
-  const router = useRouter();
-
   return (
     <Layout>
       <Head>
@@ -44,7 +40,7 @@ export default function RPTrainers({ changes }) {
 
       <div>
         {changes.map((data) => (
-          <div key={data.Location} className={utilStyles.content_container} id={data.Location}>
+          <div key={data.Location} className={utilStyles.content_container}>
             <div key={data.Location + 'title'} className={[utilStyles.section_tag, utilStyles.heading2x1, styles.title_colour].join(" ")}>
               {data.Location}
               <div key={data.location + 'seperator'} className={styles.seperator}/>
