@@ -1,0 +1,109 @@
+[
+  {
+    "Id": "1da81750-fd2b-4de0-9003-bc987688984a",
+    "NPC": "Evolution Item Seller",
+    "Status": "New",
+    "Location": "Snowpoint City",
+    "Notes": [
+      "The top left house is now occupied by an NPC who will sell evolution items to you.",
+      "She only sells items that are not available in the Veilstone Dept. Store or the Game Corner.",
+      "One of any item will cost you $10,000."
+    ]
+  },
+  {
+    "Id": "07850346-d037-409c-9be4-bf56b7b6db0b",
+    "NPC": "Hidden Power Teller",
+    "Status": "New",
+    "Location": "Jubilife Trainers' School",
+    "Notes": [
+      "An NPC has been placed in the school who can tell you what type a Pokémon's Hidden Power will be.",
+      "The power of Hidden Power is still based on IVs in Renegade Platinum - the NPC unfortunately cannot tell you this.",
+      "The Hidden Power teller is still in Veilstone City as well."
+    ]
+  },
+  {
+    "Id": "619ef782-8df1-4c6c-bde4-fe7fa922b7e6",
+    "NPC": "Item Fanatic",
+    "Status": "New",
+    "Location": "Floaroma Town",
+    "Notes": [
+      "The house to the right of the Pokémon Center contains the 'Item Fanatic'.",
+      "Talk to him and he'll mention that he can give you items only particular Pokémon can use.",
+      "Talk to him with a Pikachu in your party to get a Light Ball.",
+      "Talk to him with a Farfetch'd in your party to get a Stick.",
+      "Talk to him with a Cubone or Marowak in your party to get a Thick Club.",
+      "Talk to him with a Chansey in your party to get a Lucky Punch.",
+      "Talk to him with a Ditto in your party to get a Quick Powder and Metal Powder.",
+      "Talk to him with a Clamperl in your party to get a Deep Sea Tooth and Deep Sea Scale."
+    ]
+  },
+  {
+    "Id": "1e5a353b-76c3-4a28-ae11-2a23460161b3",
+    "NPC": "Move Deleter",
+    "Status": null,
+    "Location": "Oreburgh City",
+    "Notes": [
+      "The move deleter has moved into the house left of the Pokémon Center in Oreburgh City.",
+      "No other changes."
+    ]
+  },
+  {
+    "Id": "caf974a6-5867-4769-950f-d1b67b2ff6ad",
+    "NPC": "Move Relearner",
+    "Status": null,
+    "Location": "Pastoria City",
+    "Notes": [
+      "The move relearner is in the same place as before.",
+      "Heart Scales or any payment is no longer required - just speak to him to learn some moves."
+    ]
+  },
+  {
+    "Id": "0a77e095-8fac-4fcc-8afd-b314eaaafc63",
+    "NPC": "Move Tutors",
+    "Status": null,
+    "Location": "Route 212 (South)",
+    "Notes": [
+      "The move tutors from Route 212, Snowpoint City and the Survival Area are now all present in the house on Route 212.",
+      "Shards or any payment is no longer required - just speak to them to learn a move."
+    ]
+  },
+  {
+    "Id": "8cbe362b-7daa-4cea-91e9-4da85c694254",
+    "NPC": "Rare Berry Seller",
+    "Status": "New",
+    "Location": "Route 208",
+    "Notes": [
+      "The house just left of the gatehouse to Hearthome City where the Berry Master lives now has a female scientist NPC.",
+      "This NPC will sell you rare berries that can't be obtained in Platinum normally, such as the Liechi and Salac Berries.",
+      "Each berry can be bought infinite times but will cost $10,000 per purchase."
+    ]
+  },
+  {
+    "Id": "db0898bd-80da-47bc-ae96-deb4a0df255e",
+    "NPC": "Training NPCs",
+    "Status": "New",
+    "Location": "Solaceon Town",
+    "Notes": [
+      "The training NPCs are a new set of NPCs found in the Solaceon Day Care.",
+      "The Cowgirl on the right will offer you training for either experience or a particular stat.",
+      "The Farmer on the left will sell you a bundle with 15 of each EV reducing berry for $5,000."
+    ],
+    "Experience" : [
+      "Choosing experience will pit you against a team of Chansey or Blissey at the chosen level.",
+      "The Chansey or Blissey all only know Healing Wish and hold a Toxic Orb.",
+      "You gain access to higher levels of experience training as you progress.",
+      "Lv. 35 is unlocked when Maylene is beaten.",
+      "Lv. 45 is unlocked when you reach Celestic Town.",
+      "Lv. 55 is unlocked when Candice is beaten.",
+      "Lv. 65 is unlocked after completing Victory Road.",
+      "Lv. 75 is unlocked after becoming Champion.",
+      "Lv. 85 is unlocked after completing the Stark Mountain events."
+    ],
+    "Stats" : [
+      "Choosing a stat will ask you to select Low, Medium or High.",
+      "Choosing Low will pit you against a team of Level 10 Pokémon who give 1 EV of that stat each.",
+      "Choosing Medium will pit you against a team of Level 10 Pokémon who give 2 EV of that stat each.",
+      "Choosing High will pit you against a team of Level 10 Pokémon who give 3 EV of that stat each."
+    ]
+  }
+]

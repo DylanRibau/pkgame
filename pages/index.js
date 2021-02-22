@@ -19,21 +19,28 @@ export default function Home() {
           <Link href="/renegade-platinum/rp-pkmn-changes">
             <a className={styles.card}>
               <h3>Pokemon Changes &rarr;</h3>
-              <p>View each pokemons Ability, Type, Stats, Learnset, and more changes</p>
+              <p>View each pokemons Ability, Type, Stats, Learnset, and more changes!</p>
             </a>
           </Link>
 
           <Link href="/renegade-platinum/rp-trainers">
             <a className={styles.card}>
               <h3>Trainers &rarr;</h3>
-              <p>View all changed trainers and their rosters with detailed important trainer info</p>
+              <p>View all changed trainers and their rosters with detailed important trainer info!</p>
             </a>
           </Link>
 
           <Link href="/renegade-platinum/rp-wild-pkmn">
             <a className={styles.card}>
               <h3>Wild Pokemon &rarr;</h3>
-              <p>View all changes with wild pokemon within each route and how to find them</p>
+              <p>View all changes with wild pokemon within each route and how to find them!</p>
+            </a>
+          </Link>
+
+          <Link href="/renegade-platinum/rp-npc">
+            <a className={styles.card}>
+              <h3>NPC's &rarr;</h3>
+              <p>View all new and modified NPC's along with where to find them!</p>
             </a>
           </Link>
         </div>
