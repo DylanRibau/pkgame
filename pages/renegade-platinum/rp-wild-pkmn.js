@@ -62,14 +62,16 @@ export default function RPWildPokemon({ changes }){
               {data.RoutePokemon !== null &&
                 <div key={data.Id + 'RoutePokemonContainer'}>
                   {data.RoutePokemon.map((method) => (
-                    <div key={method.Id + method.Method}>
-                      <span key={method.Id + 'label'} className={styles.wild_method}>{method.Method}</span>
-                      {method.WildPokemon.map((pkmn, index) => (
-                        <span key={pkmn.Id} className={utilStyles.sm_space}>
-                          {pkmn.Pokemon} ({pkmn.EncounterRate}%)
-                          {index < method.WildPokemon.length - 1 && <span key={pkmn.Id + ","}>,</span>}
-                        </span>
-                      ))}
+                    <div key={method.Id + method.Method} className={[styles.flex, utilStyles.space_inbetween].join(" ")}>
+                      <div key={method.Id + 'label'} className={styles.method_label}>{method.Method}</div>
+                      <div key={method.Id + 'flex2'}>
+                        {method.WildPokemon.map((pkmn, index) => (
+                          <span key={pkmn.Id} className={utilStyles.sm_space}>
+                            {pkmn.Pokemon} ({pkmn.EncounterRate}%)
+                            {index < method.WildPokemon.length - 1 && <span key={pkmn.Id + ","}>,</span>}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>

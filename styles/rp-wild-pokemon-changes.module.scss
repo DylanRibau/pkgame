@@ -15,7 +15,12 @@ $C_title_linefade: rgba($C_title_base, 0.2);
   border-radius: 50%;
 }
 
-.wild_method {
-  float: left;
-  width: 15rem;
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.method_label {
+  min-width: 13rem;
 }
