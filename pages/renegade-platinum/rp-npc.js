@@ -16,7 +16,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function RPPkmnChanges({ npcChanges }) {
+export default function RPNPCChanges({ npcChanges }) {
   return (
     <Layout>
       <Head>

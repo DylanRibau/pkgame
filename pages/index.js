@@ -43,6 +43,13 @@ export default function Home() {
               <p>View all new and modified NPC's along with where to find them!</p>
             </a>
           </Link>
+
+          <Link href="/renegade-platinum/rp-evolution">
+            <a className={styles.card}>
+              <h3>Evolution Changes &rarr;</h3>
+              <p>View all the changes to pokemon evolution methods and levels!</p>
+            </a>
+          </Link>
         </div>
       </main>
 

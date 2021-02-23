@@ -1,0 +1,16 @@
+$C_title_base: #003366;
+$C_title: rgba($C_title_base, 0.87);
+$C_title_linefade: rgba($C_title_base, 0.2);
+
+.title_colour {
+  color: $C_title;
+}
+
+.seperator {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, $C_title_linefade, $C_title, $C_title_linefade);
+  height: 2px;
+  text-align: center;
+  border-radius: 50%;
+}

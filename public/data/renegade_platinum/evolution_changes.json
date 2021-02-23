@@ -1,0 +1,270 @@
+[
+  {
+    "Id": "8186793f-4bac-4a76-8684-d5d2c76939c4",
+    "Section": "Item Interaction Changes",
+    "Evolutions": [
+      {
+        "Id": "c6ea7e98-7a34-4f5c-8e57-d7695395ed7b",
+        "Pokemon": "Poliwhirl",
+        "Method": "Now able to evolve into Politoed by using a King's Rock."
+      },
+      {
+        "Id": "1999e07b-0d40-4272-ae25-a10b6122bfc0",
+        "Pokemon": "Slowpoke",
+        "Method": "Now able to evolve into Slowking by using a King's Rock."
+      },
+      {
+        "Id": "d0bd1292-7675-48c9-8770-3b6f16c4b06f",
+        "Pokemon": "Onix",
+        "Method": "Now able to evolve into Steelix by using a Metal Coat."
+      },
+      {
+        "Id": "e57ff8dc-71ab-491b-91f0-4688927e41b8",
+        "Pokemon": "Rhydon",
+        "Method": "Now able to evolve into Rhyperior by using a Protector."
+      },
+      {
+        "Id": "c15acb20-335e-44cf-bd99-9aeb3bf5a38c",
+        "Pokemon": "Seadra",
+        "Method": "Now able to evolve into Kingdra by using a Dragon Scale."
+      },
+      {
+        "Id": "112f57d5-655b-4e98-bbe9-d18662787e05",
+        "Pokemon": "Scyther",
+        "Method": "Now able to evolve into Scizor by using a Metal Coat."
+      },
+      {
+        "Id": "257b6441-f58c-4003-8cc6-9051d5426c6f",
+        "Pokemon": "Electabuzz",
+        "Method": "Now able to evolve into Electivire by using an Electirizer."
+      },
+      {
+        "Id": "f19ace48-788c-4580-b060-6e24ffd67843",
+        "Pokemon": "Magmar",
+        "Method": "Now able to evolve into Magmortar by using a Magmarizer."
+      },
+      {
+        "Id": "86f9596c-079f-4bf5-b592-9020f46c6c8f",
+        "Pokemon": "Porygon",
+        "Method": "Now able to evolve into Porygon2 by using a Up-Grade."
+      },
+      {
+        "Id": "85f3aa64-65c1-452c-a824-e98a1d072f76",
+        "Pokemon": "Porygon2",
+        "Method": "Now able to evolve into Porygon-Z by using a Dubious Disc."
+      },
+      {
+        "Id": "152f1171-7cc8-4600-b728-37748d704ca6",
+        "Pokemon": "Feebas",
+        "Method": "Now able to evolve into Milotic by using a Prism Scale."
+      },
+      {
+        "Id": "36770e1d-1561-484a-8733-58caf58e1a69",
+        "Pokemon": "Dusclops",
+        "Method": "Now able to evolve into Dusknoir by using a Reaper Cloth."
+      },
+      {
+        "Id": "21aad0f0-a584-438d-aa46-d0497dbf97b8",
+        "Pokemon": "Clamperl",
+        "Method": "Now able to evolve into Huntail by using a Deep Sea Tooth."
+      },
+      {
+        "Id": "a68967c1-6e05-4b60-b012-48a4f7009e2b",
+        "Pokemon": "Clamperl",
+        "Method": "Now able to evolve into Gorebyss by using a Deep Sea Scale."
+      }
+    ]
+  },
+  {
+    "Id": "c149cdcd-255d-4fd0-9d48-6fbf5bf1b0f4",
+    "Section": "Level Changes",
+    "Evolutions": [
+      {
+        "Id": "06e3b607-bc01-4099-89a1-29b8bca87ac8",
+        "Pokemon": "Ponyta",
+        "Method": "Now evolves into Rapidash at Level 35."
+      },
+      {
+        "Id": "5b75f1a7-aff5-4615-984f-a15a1342c108",
+        "Pokemon": "Slowpoke",
+        "Method": "Now evolves into Slowbro at Level 33."
+      },
+      {
+        "Id": "80abaee3-cafb-40c9-b78f-9a90cb4acdda",
+        "Pokemon": "Grimer",
+        "Method": "Now evolves into Muk at Level 35."
+      },
+      {
+        "Id": "4d6bdd3a-3c5e-404e-b3eb-d6b9cf4ed3ad",
+        "Pokemon": "Rhyhorn",
+        "Method": "Now evolves into Rhydon at Level 36."
+      },
+      {
+        "Id": "1b820c9e-6d54-46c2-8397-ab3dd097d908",
+        "Pokemon": "Omanyte",
+        "Method": "Now evolves into Omastar at Level 30."
+      },
+      {
+        "Id": "70dd9976-69c0-4d40-90aa-bdc3759c7c83",
+        "Pokemon": "Kabuto",
+        "Method": "Now evolves into Kabutops at Level 30."
+      },
+      {
+        "Id": "b149fbee-69d3-4d08-925f-58f8bb5e268a",
+        "Pokemon": "Slugma",
+        "Method": "Now evolves into Magcargo at Level 32."
+      },
+      {
+        "Id": "ba8e3a34-a9f9-46af-802c-f667f525a910",
+        "Pokemon": "Aron",
+        "Method": "Now evolves into Lairon at Level 24."
+      },
+      {
+        "Id": "284be6db-e675-44d5-87b7-76332259cac7",
+        "Pokemon": "Lairon",
+        "Method": "Now evolves into Aggron at Level 40."
+      },
+      {
+        "Id": "b7bcc602-ba9b-499a-a539-640b0f642586",
+        "Pokemon": "Meditite",
+        "Method": "Now evolves into Medicham at Level 33."
+      },
+      {
+        "Id": "c472848a-b8a0-41c8-a7c0-02de63969417",
+        "Pokemon": "Wailmer",
+        "Method": "Now evolves into Wailord at Level 36."
+      },
+      {
+        "Id": "68bae8f9-e142-4044-80ac-8ba54f4fa3f3",
+        "Pokemon": "Trapinch",
+        "Method": "Now evolves into Vibrava at Level 30."
+      },
+      {
+        "Id": "0ae7efa6-bace-44e4-89b5-58fad31b83bb",
+        "Pokemon": "Baltoy",
+        "Method": "Now evolves into Claydol at Level 32."
+      },
+      {
+        "Id": "46fd7931-9edb-4c92-9a26-9681887678dd",
+        "Pokemon": "Lileep",
+        "Method": "Now evolves into Cradily at Level 30."
+      },
+      {
+        "Id": "955002ca-235c-48bf-8974-6977bafb0c24",
+        "Pokemon": "Anorith",
+        "Method": "Now evolves into Armaldo at Level 30."
+      },
+      {
+        "Id": "3724fc4d-8d91-41fc-92cf-282529d24033",
+        "Pokemon": "Shuppet",
+        "Method": "Now evolves into Banette at Level 32."
+      },
+      {
+        "Id": "586c73e9-f5a6-4d69-afbb-13e6fed99aec",
+        "Pokemon": "Duskull",
+        "Method": "Now evolves into Dusclops at Level 32."
+      },
+      {
+        "Id": "fc8e4961-ab03-45f0-8167-b1b80f7c0d53",
+        "Pokemon": "Snorunt",
+        "Method": "Now evolves into Glalie at Level 32."
+      },
+      {
+        "Id": "f3102b64-95aa-466f-8262-e1c74f9fc391",
+        "Pokemon": "Spheal",
+        "Method": "Now evolves into Sealeo at Level 24."
+      },
+      {
+        "Id": "b567fca4-12de-4f46-892d-efaa36d0cea0",
+        "Pokemon": "Sealeo",
+        "Method": "Now evolves into Walrein at Level 40."
+      },
+      {
+        "Id": "c77bdd67-6540-4ca4-95ca-421e603b4848",
+        "Pokemon": "Glameow",
+        "Method": "Now evolves into Purugly at Level 32."
+      },
+      {
+        "Id": "e8f39936-b160-4101-8f78-5ef9757f29e5",
+        "Pokemon": "Stunky",
+        "Method": "Now evolves into Skuntank at Level 32."
+      },
+      {
+        "Id": "c9659e94-9c64-43e0-b8fb-5080b85e98f0",
+        "Pokemon": "Skorupi",
+        "Method": "Now evolves into Drapion at Level 30."
+      },
+      {
+        "Id": "b363dd58-2ee0-47a8-949f-689ec6b6aac0",
+        "Pokemon": "Croagunk",
+        "Method": "Now evolves into Toxicroak at Level 33."
+      }
+    ]
+  },
+  {
+    "Id": "3344d176-cef3-4bec-b12e-03107157edba",
+    "Section": "Method Changes",
+    "Evolutions": [
+      {
+        "Id": "0f7a25d7-756b-4c40-9c55-2d268b483a8c",
+        "Pokemon": "Kadabra",
+        "Method": "Now able to evolve into Alakazam at Level 36."
+      },
+      {
+        "Id": "0db38dc5-58bf-479a-8429-b36b54baf172",
+        "Pokemon": "Machoke",
+        "Method": "Now able to evolve into Machamp at Level 36."
+      },
+      {
+        "Id": "878e0bfc-a13e-40bd-9976-e393adfafda4",
+        "Pokemon": "Graveler",
+        "Method": "Now able to evolve into Golem at Level 36."
+      },
+      {
+        "Id": "397920e4-1f73-4a5e-9564-0441d76dd625",
+        "Pokemon": "Haunter",
+        "Method": "Now able to evolve into Gengar at Level 36."
+      },
+      {
+        "Id": "d9cf579a-41e7-4072-bf02-55f638303acd",
+        "Pokemon": "Eevee",
+        "Method": "Now only evolves into Espeon with the Sun Stone."
+      },
+      {
+        "Id": "edd02a35-8ab9-470f-b9ad-1ea8199392f0",
+        "Pokemon": "Eevee",
+        "Method": "Now only evolves into Umbreon with the Moon Stone."
+      },
+      {
+        "Id": "591703f8-1237-499c-8e02-095ecdf55295",
+        "Pokemon": "Eevee",
+        "Method": "Now only evolves into Leafeon with the Leaf Stone."
+      },
+      {
+        "Id": "71190e47-8512-4e83-9a49-0901e08f4765",
+        "Pokemon": "Eevee",
+        "Method": "Now only evolves into Glaceon with the Ice Stone."
+      },
+      {
+        "Id": "efc6c9af-f0fe-416f-a413-b2544787c1d1",
+        "Pokemon": "Feebas",
+        "Method": "Now able to evolve into Milotic by using a Prism Scale."
+      },
+      {
+        "Id": "dbbb65c9-7bc0-4e95-abc8-a537dee3795e",
+        "Pokemon": "Budew",
+        "Method": "Now evolves into Roselia when happy regardless of the time."
+      },
+      {
+        "Id": "28bc6a1f-9faf-4c88-aad3-a48884cf6177",
+        "Pokemon": "Chingling",
+        "Method": "Now evolves into Chimecho when happy regardless of the time."
+      },
+      {
+        "Id": "961b7c80-caed-4401-8e11-865f087e09ba",
+        "Pokemon": "Riolu",
+        "Method": "Now evolves into Lucario when happy regardless of the time."
+      }
+    ]
+  }
+]
