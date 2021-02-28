@@ -50,6 +50,13 @@ export default function Home() {
               <p>View all the changes to pokemon evolution methods and levels!</p>
             </a>
           </Link>
+
+          <Link href="/renegade-platinum/rp-type">
+            <a className={styles.card}>
+              <h3>Type Changes &rarr;</h3>
+              <p>View all the changes to pokemon types and the reasoning behind them!</p>
+            </a>
+          </Link>
         </div>
       </main>
 

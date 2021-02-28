@@ -1,6 +1,10 @@
 $C_container: rgba(235, 235, 235, 0.9);
 $F_Arial: Arial, sans-serif;
 
+.center {
+  text-align: center;
+}
+
 .heading2x1 {
   font-size: 2.5rem;
   font-weight: 600;
@@ -26,13 +30,13 @@ $F_Arial: Arial, sans-serif;
 
 .page_title {
   @extend .heading2x1;
+  @extend .center;
   font-family: $F_Arial;
-  text-align: center;
 }
 
 .section_tag {
+  @extend .center;
   font-family: cursive, fantasy, serif;
-  text-align: center;
 }
 
 .sub_heading {
