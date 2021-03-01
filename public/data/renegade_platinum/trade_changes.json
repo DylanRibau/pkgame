@@ -1,0 +1,90 @@
+[
+  {
+    "Id": "e87f34cb-5eb9-46e1-970c-e08ddf15ad4f",
+    "Location": "Oreburgh City",
+    "Info": "You will be asked for a Ponyta in exchange for a Spheal.",
+    "Trade_Pkmn": [
+      {
+        "Id": "5a5da3b2-10f8-490d-b4c5-30e4eb9f2ecb",
+        "Pkmn": "Spheal",
+        "Nickname": "Gaia",
+        "Held_Item": "Never-Melt Ice",
+        "Nature": "Quiet",
+        "Ivs": {
+          "HP": 31,
+          "Atk": 31,
+          "Def": 15,
+          "SAtk": 31,
+          "SDef": 15,
+          "Spd": 15
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cfd7f92d-3ec1-432f-abef-2140062fec66",
+    "Location": "Floaroma Town",
+    "Info": "You will be asked for a Cherubi in exchange for a Skorupi.",
+    "Trade_Pkmn": [
+      {
+        "Id": "79e57fe7-344e-4ecf-817e-ac800b14753c",
+        "Pkmn": "Skorupi",
+        "Nickname": "Spike",
+        "Held_Item": "Poison Barb",
+        "Nature": "Jolly",
+        "Ivs": {
+          "HP": 15,
+          "Atk": 31,
+          "Def": 31,
+          "SAtk": 15,
+          "SDef": 15,
+          "Spd": 31
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5deb62f6-22dc-4975-8593-66820be52b87",
+    "Location": "Eterna City",
+    "Info": "You will be asked for a Snorunt in exchange for a Chatot.",
+    "Trade_Pkmn": [
+      {
+        "Id": "35852b10-0129-470e-9b59-257679a9e808",
+        "Pkmn": "Chatot",
+        "Nickname": "Macaw",
+        "Held_Item": "Sharp Beak",
+        "Nature": "Modest",
+        "Ivs": {
+          "HP": 15,
+          "Atk": 15,
+          "Def": 15,
+          "SAtk": 31,
+          "SDef": 31,
+          "Spd": 31
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f68d531c-06b4-48a0-80bb-250a64457c18",
+    "Location": "Route 226",
+    "Info": "You will be asked for a Magikarp in exchange for a (German) Magikarp.",
+    "Trade_Pkmn": [
+      {
+        "Id": "006bded9-770a-454c-b63c-2065f2b236e6",
+        "Pkmn": "Magikarp",
+        "Nickname": "Foppa",
+        "Held_Item": "Starf Berry",
+        "Nature": "Adament",
+        "Ivs": {
+          "HP": 31,
+          "Atk": 31,
+          "Def": 31,
+          "SAtk": 31,
+          "SDef": 31,
+          "Spd": 31
+        }
+      }
+    ]
+  }
+]

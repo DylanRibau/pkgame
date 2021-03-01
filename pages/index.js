@@ -57,6 +57,13 @@ export default function Home() {
               <p>View all the changes to pokemon types and the reasoning behind them!</p>
             </a>
           </Link>
+
+          <Link href="/renegade-platinum/rp-trade">
+            <a className={styles.card}>
+              <h3>Trade Changes &rarr;</h3>
+              <p>View all the changes to trade pokemon with detailed stats of them! </p>
+            </a>
+          </Link>
         </div>
       </main>
 
