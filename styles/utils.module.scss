@@ -1,6 +1,10 @@
 $C_container: rgba(235, 235, 235, 0.9);
 $F_Arial: Arial, sans-serif;
 
+.center {
+  text-align: center;
+}
+
 .heading2x1 {
   font-size: 2.5rem;
   font-weight: 600;
@@ -22,4 +26,60 @@ $F_Arial: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.page_title {
+  @extend .heading2x1;
+  @extend .center;
+  font-family: $F_Arial;
+}
+
+.section_tag {
+  @extend .center;
+  font-family: cursive, fantasy, serif;
+}
+
+.sub_heading {
+  @extend .section_tag;
+  font-size: 1.25rem;
+}
+
+.space_inbetween {
+  margin-bottom: 0.7rem;
+}
+
+.sm_space {
+  margin: 0 0.25rem;
+}
+
+.sm_font{
+  font-size: 0.95rem;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.list_style {
+  list-style: none;
+
+  li {
+    padding-bottom: 1rem;
+  }
+
+  li::before {
+    content: "";
+    position: relative;
+    top: 5px;
+    left: -0.5rem;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url('../public/images/pokeball.png');
+    background-size: 20px 20px;
+  }
+}
+
+.text {
+  font: 1rem Times, serif;
 }
