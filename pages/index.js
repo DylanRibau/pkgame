@@ -16,6 +16,13 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
+          <Link href="/base/type-chart">
+            <a className={styles.card}>
+              <h3>Type Chart &rarr;</h3>
+              <p>Type Chart - Gen 6+</p>
+            </a>
+          </Link>
+
           <Link href="/renegade-platinum/rp-pkmn-changes">
             <a className={styles.card}>
               <h3>Pokemon Changes &rarr;</h3>
@@ -61,7 +68,7 @@ export default function Home() {
           <Link href="/renegade-platinum/rp-trade">
             <a className={styles.card}>
               <h3>Trade Changes &rarr;</h3>
-              <p>View all the changes to trade pokemon with detailed stats of them! </p>
+              <p>View all the changes to trade pokemon with detailed stats of them!</p>
             </a>
           </Link>
         </div>
